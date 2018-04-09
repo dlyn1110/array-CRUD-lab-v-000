@@ -6,10 +6,8 @@ def create_an_array
 colors_array = ["Red", "Blue", "Green", "Blue"]
 end
 
-def add_element_to_end_of_array(colors_array, element)
-colors_array = ["Red", "Blue", "Green", "Blue"]
-colors_array.push("Orange")
-puts colors_array.inspect
+def add_element_to_end_of_array(array, element)
+colors_array.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
